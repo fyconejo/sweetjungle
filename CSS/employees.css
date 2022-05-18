@@ -21,7 +21,7 @@ body {
 
 
   height: 400px;
-  background-image: url("http://drive.google.com/uc?export=view&id=1FcGZ_9O_t3CgD2ENXZbdBceBjCTuBjJe");
+  background-image: url("http://drive.google.com/uc?export=view&id=1nO31_JrK_rrwQTSBcqzdewOFqzGjGK52");
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
@@ -76,7 +76,7 @@ h2{
 .barra_informacion{
   width: 100%;
   background-color: var(--nav_bar);
-  height: 20px;
+  height: 76px;
   align-content: center;
   margin: 0;
   padding: 18px 0px 10px 0px;
@@ -111,15 +111,20 @@ body header{
   z-index: 100;
 }
 
+
+
+
  #logo{
    position: relative;
-   right: -1px;
+   right: -0px;
    top: 3px;
    border-radius: 4px;
-   height: 83px;
-   width: 200px;
+   height: 150px;
+   width: 150px;
    z-index: 100;
  }
+
+
 
  #logo_2{
 	position: relative;
@@ -167,6 +172,7 @@ body header{
 .contenedor_menu{
 	width: 100%;
 
+
 }
 .card{
   width: 100%;
@@ -178,7 +184,7 @@ body header{
 .titulo_menu{
   border-radius: 0px 0px 0px 0px;
   padding: 5px;
-  background-color: var(--encabezado);
+  background-color: rgb(32 32 32);
 }
 
 h3{
@@ -304,7 +310,7 @@ h3{
 #menu a {
     color: white;
     line-height: 118%;
-    padding: 18px 28px 11px 28px;
+    padding: 40px 28px 11px 28px;
     width: 79%;
 }
 #menu ul ul li {
@@ -350,7 +356,7 @@ h3{
 	grid-template-columns: 13.2% auto;
 	column-gap: 1rem;
 	height: 620px;
-	padding-top: 87px;
+	padding-top: 143px;
 }
 
 .contenedor_video{

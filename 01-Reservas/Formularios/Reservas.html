@@ -39,37 +39,8 @@
 			<div class="link_menu">
 				<a  href="../../index.html"><span class="material-icons">arrow_back_ios</span></a>
 
+		</div>
 
-
-
-
-
-
-				<p><a href="javascript:mostrar();">Mostrar</a></p>
-				<div id="newcbCCC1A000a8d73d5379cd4f1a9c57" style="display:flex;">
-				     <div id="close"><a href="javascript:cerrar();">cerrar</a></div>
-				     Este es un div ocultar
-				</div>
-
-
-				<script languague="javascript">
-				        function mostrar() {
-				            div = document.getElementById('newcbCCC1A000a8d73d5379cd4f1a9c57');
-				            div.style.display = '';
-				        }
-
-				        function cerrar() {
-				            div = document.getElementById('newcbCCC1A000a8d73d5379cd4f1a9c57');
-				            div.style.display = 'none';
-				        }
-				</script>
-
-
-
-
-
-
-			</div>
 
 			<div class="text_info">
 				<h2>Registro de Reservas</h2>
@@ -108,6 +79,37 @@
 				<div>
 				<p>This application was created by SweetJungle</p>
 				<p>© SweetJungle. All rights reserved. <a href="http://constructoraherrera.com/" target="blank">Pagina Principal</a></p>
+
+
+
+
+				<a style='cursor: pointer;' onclick="mostrarOcultar('newcbCCC1A000a8d73d5379cd4f1a9c57')">
+				    Mostrar/ocultar contenido
+				</a>
+
+
+				<script type="text/javascript">
+
+				const mostrar = (elemento) => {
+				    elemento.style.display = 'none';
+				}
+				const ocultar = (elemento) => {
+				    elemento.style.display = 'none';
+				}
+				const mostrarOcultar = (id) => {
+				    let div = document.getElementById(id);
+				    if( window.getComputedStyle(div).display !== 'none' ){
+				      ocultar(div);
+				      return false;
+				    }
+
+				    mostrar(div);
+				}
+
+				</script>
+
+
+
 			</div>
 	  	</div>
 	</body>

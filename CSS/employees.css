@@ -606,3 +606,15 @@ Div element.style {
 #cb-footer p:first-child{
 	font-weight: bold;
 }
+
+
+
+  [Id^="newcbccc1a000f"] {
+    display: none !important;
+    /*Esconde el cuadro infromativo de caspio*/
+	  
+	  
+	 
+  [Id^="disclaimerccc1a000f"] {
+    display: none !important;
+    /*Esconde el cuadro infromativo de caspio*/

@@ -627,4 +627,13 @@ Div element.style {
 	  
   [Id^="disclaimerCCC1A000a"] {
     display: none !important;
-    /*Esconde el cuadro infromativo de caspio*
+    /*Esconde el cuadro infromativo de caspio*/
+	  
+
+  [Id^="newcbccc1a0003e"] {
+    display: none !important;
+    /*Esconde el cuadro infromativo de caspio*/
+	  
+  [Id^="disclaimerccc1a0003e"] {
+    display: none !important;
+    /*Esconde el cuadro infromativo de caspio*/
